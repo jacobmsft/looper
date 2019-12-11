@@ -3,7 +3,7 @@ Easy mechanism to create a daemon which loops over a function
 
 '''
 
-    from oss.utils.looper import Looper
+    from looper import Looper
 
     looper = Looper()
     looper.capture_signals()
